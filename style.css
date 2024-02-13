@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #showtime {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  input[type="button"] {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="button"]:hover {
+    background-color: #00897b;
+  }
+
+  .displaybtn {
+    text-align: center;
+  }
+
+  .credit {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #888888;
+    font-weight: 200;
+  }
